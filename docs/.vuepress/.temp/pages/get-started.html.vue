@@ -1,23 +1,32 @@
-<template><div><h1 id="get-started" tabindex="-1"><a class="header-anchor" href="#get-started"><span>Get Started</span></a></h1>
-<p>This is a normal page, which contains VuePress basics.</p>
-<h2 id="pages" tabindex="-1"><a class="header-anchor" href="#pages"><span>Pages</span></a></h2>
-<p>You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.</p>
-<p>See <a href="https://vuejs.press/guide/page.html#routing" target="_blank" rel="noopener noreferrer">routing</a> for more details.</p>
-<h2 id="content" tabindex="-1"><a class="header-anchor" href="#content"><span>Content</span></a></h2>
-<p>Every markdown file <a href="https://vuejs.press/guide/page.html#content" target="_blank" rel="noopener noreferrer">will be rendered to HTML, then converted to a Vue SFC</a>.</p>
-<p>VuePress support basic markdown syntax and <a href="https://vuejs.press/guide/markdown.html#syntax-extensions" target="_blank" rel="noopener noreferrer">some extensions</a>, you can also <a href="https://vuejs.press/guide/markdown.html#using-vue-in-markdown" target="_blank" rel="noopener noreferrer">use Vue features</a> in it.</p>
-<h2 id="configuration" tabindex="-1"><a class="header-anchor" href="#configuration"><span>Configuration</span></a></h2>
-<p>VuePress use a <code v-pre>.vuepress/config.js</code>(or .ts) file as <a href="https://vuejs.press/guide/configuration.html#client-config-file" target="_blank" rel="noopener noreferrer">site configuration</a>, you can use it to config your site.</p>
-<p>For <a href="https://vuejs.press/guide/configuration.html#client-config-file" target="_blank" rel="noopener noreferrer">client side configuration</a>, you can create <code v-pre>.vuepress/client.js</code>(or .ts).</p>
-<p>Meanwhile, you can also add configuration per page with <a href="https://vuejs.press/guide/page.html#frontmatter" target="_blank" rel="noopener noreferrer">frontmatter</a>.</p>
-<h2 id="layouts-and-customization" tabindex="-1"><a class="header-anchor" href="#layouts-and-customization"><span>Layouts and customization</span></a></h2>
-<p>Here are common configuration controlling layout of <code v-pre>@vuepress/theme-default</code>:</p>
+<template><div><h1 id="bat-đau" tabindex="-1"><a class="header-anchor" href="#bat-đau"><span>Bắt đầu</span></a></h1>
+<h2 id="gioi-thieu" tabindex="-1"><a class="header-anchor" href="#gioi-thieu"><span>Giới thiệu</span></a></h2>
+<p>Ghé thăm trang chủ của chúng tôi để hiểu thêm về Olli -&gt; <a href="https://olli.vn" target="_blank" rel="noopener noreferrer">https://olli.vn/</a></p>
+<h2 id="dich-vu" tabindex="-1"><a class="header-anchor" href="#dich-vu"><span>Dịch vụ</span></a></h2>
+<h3 id="chuyen-giong-noi-thanh-van-ban" tabindex="-1"><a class="header-anchor" href="#chuyen-giong-noi-thanh-van-ban"><span>Chuyển giọng nói thành văn bản</span></a></h3>
 <ul>
-<li><a href="https://vuejs.press/reference/default-theme/config.html#navbar" target="_blank" rel="noopener noreferrer">navbar</a></li>
-<li><a href="https://vuejs.press/reference/default-theme/config.html#sidebar" target="_blank" rel="noopener noreferrer">sidebar</a></li>
+<li>Ngôn ngữ: Tiếng việt</li>
+<li>Giao thức: Rest API, GRPC</li>
+<li><RouteLink to="/speech-to-text/introduction.html">Kết nối API</RouteLink></li>
 </ul>
-<p>Check <a href="https://vuejs.press/reference/default-theme/" target="_blank" rel="noopener noreferrer">default theme docs</a> for full reference.</p>
-<p>You can <a href="https://vuejs.press/reference/default-theme/styles.html#style-file" target="_blank" rel="noopener noreferrer">add extra style</a> with <code v-pre>.vuepress/styles/index.scss</code> file.</p>
+<h3 id="chuyen-van-ban-thanh-giong-noi" tabindex="-1"><a class="header-anchor" href="#chuyen-van-ban-thanh-giong-noi"><span>Chuyển văn bản thành giọng nói</span></a></h3>
+<ul>
+<li>Ngôn ngữ: Tiếng việt</li>
+<li>2 giọng nữ Bắc và Nam.</li>
+<li>Giao thức: Rest API, GRPC</li>
+<li><RouteLink to="/text-to-speech/introduction.html">Kết nối API</RouteLink></li>
+</ul>
+<h3 id="xay-dung-tro-ly-ao" tabindex="-1"><a class="header-anchor" href="#xay-dung-tro-ly-ao"><span>Xây dựng trợ lý ảo</span></a></h3>
+<ul>
+<li>Hỗ trợ xây dựng luồng nói chuyện của trợ lý ảo bằng hệ thống Skill Builder.</li>
+</ul>
+<ol>
+<li>Tạo skill trên skill builder</li>
+<li>Kết nối api đến hệ thống xử lý ngôn ngữ tự nhiên của Olli.</li>
+</ol>
+<h3 id="quan-ly-thiet-bi-iot" tabindex="-1"><a class="header-anchor" href="#quan-ly-thiet-bi-iot"><span>Quản lý thiết bị IOT</span></a></h3>
+<ul>
+<li>Chúng tôi có hệ thống giúp bản quản trị hàng triệu thiết bị IOT, bao gồm thêm, xoá, sửa, cập nhật phần mềm từ xa, theo dõi trạng thái,....</li>
+</ul>
 </div></template>
 
 

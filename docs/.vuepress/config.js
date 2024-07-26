@@ -10,8 +10,8 @@ export default defineUserConfig({
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-
-    // navbar: ['/', '/get-started'],
+    search: true,
+    searchMaxSuggestions: 10,
     navbar: [
       {
         text: 'Trang chủ',
@@ -19,22 +19,18 @@ export default defineUserConfig({
       },
       {
         text: 'Dịch vụ',
-        link: '/services',
-        
-      },
-    ],
-    sidebar: [
-      {
-        title: 'Speech To Text',
-        path: '/speech-to-text/',
         children: [
           {
-            text: 'Introduction',
+            text: 'Chuyển giọng nói thành văn bản',
             link: '/speech-to-text/introduction'
+          },
+          {
+            text: 'Chuyển văn bản thành giọng nói',
+            link: '/text-to-speech/introduction'
           }
         ]
       },
-    ]
+    ],
   }),
 
   bundler: viteBundler(),
